@@ -1,0 +1,57 @@
+body, ul, li, h1, h2 a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    max-width: 100%;
+}
+header{
+    box-sizing: border-box;
+    display:flex;
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 16px;
+    background-color: black;
+  } 
+    
+    nav{
+        background-color: black;
+        padding: 10px auto;
+        position: relative;
+        top: 40px;
+        text-align: right;
+        width: 100%;
+    }
+    nav ul{
+        white-space: nowrap;
+    }
+    nav li{
+        width: 100px; 
+        display:inline-block;
+        font-size: 18px;
+    }
+    nav li a{
+        text-decoration: solid;
+        color: darkturquoise;
+    }
+    nav li a button{
+        border-radius: 28px;
+    }
+.banner{
+    position: relative;
+}    
+.banner .welcome{
+        background-color: none;
+        color: white;
+        padding: 100px;
+        position: absolute;
+        left: 0%;
+        top:70px;   
+}
+.banner .welcome h1{
+    font-size: 32px;
+}
+.banner p a{
+    border-radius:28px ;
+    border-color: black;
+    border-style: groove;
+}
